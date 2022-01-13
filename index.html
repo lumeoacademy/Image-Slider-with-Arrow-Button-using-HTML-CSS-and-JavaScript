@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider with Arrow Button using HTML, CSS and JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"  rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="images">
+           <img src="images/image1.jpg">
+           <img src="images/image2.jpg"> 
+           <img src="images/image3.jpg"> 
+           <img src="images/image4.jpg"> 
+           <img src="images/image5.jpg">  
+        </div>
+        <div onclick="side_slide(-1)" class="slide left">
+            <span class="fa fa-angle-left"></span>
+        </div>
+        <div onclick="side_slide(1)" class="slide right">
+            <span class="fa fa-angle-right"></span>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
